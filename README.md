@@ -1,2 +1,2 @@
 # 0xydium
-My little private website
+My little website
