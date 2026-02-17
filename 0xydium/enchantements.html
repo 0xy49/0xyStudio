@@ -1,0 +1,505 @@
+<!DOCTYPE html> <html lang="fr"><head>
+<title>Enchantements</title>
+<base href="..">
+<meta name="pathname" content="0xydium/enchantements.html">
+<meta name="description" content="0xydium - Enchantements">
+<meta property="og:title" content="Enchantements">
+<meta property="og:description" content="0xydium - Enchantements">
+<meta property="og:type" content="website">
+<meta property="og:url" content="0xydium/enchantements.html">
+<meta property="og:image" content="undefined">
+<meta name="author" content="0xy さ"><meta charset="UTF-8"><meta property="og:site_name" content="0xydium"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/supported-plugins.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon code-styler code-styler-style-inline code-styler-gutter-highlight is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><pre class="frontmatter language-yaml" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">outgoing_links</span><span class="token punctuation">:</span> <span class="token string">"[[34 MOJANG 🟩.base]]"</span></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Enchantements_0">Enchantements</h1><div class="data-bar"></div></div><div class="select-image-icon" style="
+                            position: absolute;
+                            top: 10px;
+                            left: 17px;
+                            font-size: 1.8em;
+                            cursor: pointer;
+                            opacity: 0.4;
+                        "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAjCAYAAACD1LrRAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH6QMBFCMRzbWhYAAAAm9JREFUWIXt1Eto03AcwPHfPy21r6WZ2JOKrN2jrV3b6ZAWHxQcXpwOvDkUD4MdnDfdSPAQi+JBUG8TRMGDrOrwAeKiUCHIYBE8zR3s1sdBkYEwpgOXf5v272WW1dKtaZMepH8IhF8eny9/SIAQAoQQGDh0IPz3vBkHih4Mhe+cOzXnpO2rP3+vM1efvY28+jAngc6LunTisOCk7QAAjMNqgfHBqKA3CgBA7d7pYDYP9u1qZya9HvZIR0dYV9hAoYrhiMXMJxhaSPh97EhXpy4BVJW5GSHEHDWZ+Mk2u/AtFCB3vR42ouEuVINLAQDAOCkKLlrM/HuGFmb8PvZ8Z+O7sB1cFmFAiDluMvEPaLuQCvayN3q66w5QA5cCAIDZazDw4zarsNYXJNP7fewZt1tVRD1wWYAJITi9w8THHW3CfMB/hatxFxqBKyJ6jMbr12xWYaUvSB75POyg21U1Qiu4LMCGEJw1m/nnDlr4FPCzl7u7KgK0hisieo1G/qbdJvwIBcl9r4eNbnySesJlATSF4ILFzL9rdwgnXa6wsQlwaSUVJfZYxuKbTEbSHV4nBGZyeS4uy+LrdEa6tTHXDc4UCtwTGYux5KI0DADD/1zXFFYAIIFz3JSMxafptBTb4l5N4O+FAjeNc+LEl6Q0BABDNTxTN0wIgdl8novjnPhwKSVNqHxeNbxSLMILnOPiMhZns1lpQO0L1MIf8woXl2Xx3lJKGgOAsTrBmuBfRQIvMeamZCyK2ax0rEFsW/izokBcxpHbi0vSKACMaghuCffPL6B+HbDNqxn/6hbcglvwfwobF74uw/LqWtlwTxPgP3n3GrlhLVHIAAAAAElFTkSuQmCC" alt="Select Banner" style="width: 25px; height: 30px;" target="_self" class="is-unresolved"></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">N°</th>
+<th dir="ltr">Nom</th>
+<th dir="ltr">Description</th>
+<th dir="ltr">Level</th>
+<th dir="ltr">Hyper<br>Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr">Above the clouds</td>
+<td dir="ltr">Permet aux Jetpacks d'aller à une hauteur illimitée</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="ltr">Affilage</td>
+<td dir="ltr">Augmente les dégâts infligés par les attaques par balayage</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="ltr">Affinité aquatique</td>
+<td dir="ltr">Augmente la vitesse d'extraction en plongée</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="ltr">Affûtage</td>
+<td dir="ltr">Augmente les dégâts de l'objet</td>
+<td dir="ltr">V</td>
+<td dir="ltr">VI</td>
+</tr>
+<tr>
+<td dir="auto">5</td>
+<td dir="ltr">Agilité aquatique</td>
+<td dir="ltr">Augmente la vitesse de déplacement sous l’eau</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">6</td>
+<td dir="ltr">Amortissement</td>
+<td dir="ltr">Réduit les dégâts causés par la chute et les dégâts liés à la téléportation des perles</td>
+<td dir="ltr">IV</td>
+<td dir="ltr">VI</td>
+</tr>
+<tr>
+<td dir="auto">7</td>
+<td dir="ltr">Antidote</td>
+<td dir="auto">???</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">8</td>
+<td dir="ltr">Appât</td>
+<td dir="ltr">Diminue le temps nécessaire à un poisson pour mordre le crochet</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">9</td>
+<td dir="ltr">Aura de feu</td>
+<td dir="ltr">Inflige des dégâts de feu supplémentaires lorsqu'il est utilisé pour attaquer une foule</td>
+<td dir="ltr">II</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">10</td>
+<td dir="ltr">Blowthrough</td>
+<td dir="auto">???</td>
+<td dir="ltr">IV</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">11</td>
+<td dir="ltr">Brèche</td>
+<td dir="ltr">Augmente l'efficacité des attaques sur les monstres équipés d'armures</td>
+<td dir="ltr">IIII</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">12</td>
+<td dir="ltr">Canalisation</td>
+<td dir="ltr">Permet au trident d'invoquer des éclairs pendant les orages</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">13</td>
+<td dir="ltr">Chance de la mer</td>
+<td dir="ltr">Augmente les chances d’obtenir un bon butin pendant la pêche</td>
+<td dir="ltr">III</td>
+<td dir="ltr">V</td>
+</tr>
+<tr>
+<td dir="auto">14</td>
+<td dir="ltr">Capacité</td>
+<td dir="ltr">Augmente la capacité en air du réservoir dorsal</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">15</td>
+<td dir="ltr">Charge rapide</td>
+<td dir="ltr">Augmente la vitesse de rechargement de l’arbalète</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">16</td>
+<td dir="ltr">Châtiment</td>
+<td dir="ltr">Augmente les dégâts infligés aux monstres morts vivantes tels que les zombies ou les squelettes</td>
+<td dir="ltr">V</td>
+<td dir="ltr">VI</td>
+</tr>
+<tr>
+<td dir="auto">17</td>
+<td dir="ltr">Contre-courant</td>
+<td dir="ltr">Permet au trident de lancer le joueur en avant<br>Ne fonctionne que sous la pluie ou dans l'eau</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">18</td>
+<td dir="ltr">Curse of conductivity</td>
+<td dir="ltr">Le porteur à plus de chance de se faire frapper par la foudre</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr">Densité</td>
+<td dir="ltr">Augmente les dommages d'attaque en fonction de la hauteur de chute</td>
+<td dir="ltr">V</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr">Dépouillage</td>
+<td dir="ltr">Les mobs laisseront plus de butin quand ils seront tués</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">21</td>
+<td dir="ltr">Digging</td>
+<td dir="ltr">Permet à la foreuse portative de miner de plus gros trou</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">22</td>
+<td dir="ltr">Efficacité</td>
+<td dir="ltr">Augmente la vitesse d'extraction de l'outil</td>
+<td dir="ltr">V</td>
+<td dir="ltr">VI</td>
+</tr>
+<tr>
+<td dir="auto">23</td>
+<td dir="ltr">Empalement</td>
+<td dir="ltr">Augmente les dégâts infligés aux joueurs et aux créatures aquatiques</td>
+<td dir="ltr">V</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">24</td>
+<td dir="ltr">Épines</td>
+<td dir="ltr">Inflige des dégâts aux ennemis lorsqu'ils vous attaquent</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">25</td>
+<td dir="ltr">Flamme</td>
+<td dir="ltr">Les flèches tirées depuis l'arc infligent des dégâts de feu supplémentaires</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">26</td>
+<td dir="ltr">Fléau des arthropodes</td>
+<td dir="ltr">Augmente les dégâts infligés aux&nbsp;arthropodes tels que les araignées et les poissons d'argent</td>
+<td dir="ltr">V</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">27</td>
+<td dir="ltr">Fortune</td>
+<td dir="ltr">Certains blocs comme le charbon et le minerai de diamant peuvent laisser tomber des objets supplémentaires</td>
+<td dir="ltr">III</td>
+<td dir="ltr">V</td>
+</tr>
+<tr>
+<td dir="auto">28</td>
+<td dir="ltr">Furtivité rapide</td>
+<td dir="ltr">Augmente la vitesse de déplacement en étant accroupi</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">29</td>
+<td dir="ltr">Ghasted</td>
+<td dir="auto">???</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">30</td>
+<td dir="ltr">Grandes poches</td>
+<td dir="ltr">Ajoute une ligne d'inventaire au joueur par niveau</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">31</td>
+<td dir="ltr">Gravity</td>
+<td dir="auto">???</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">32</td>
+<td dir="ltr">Gravity gun</td>
+<td dir="ltr">Permet au Ramasse-blocs d'attraper les entités</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">33</td>
+<td dir="ltr">Hellfire</td>
+<td dir="ltr">Augmente les dommages du Lance-flammes et enflamme la zone</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">34</td>
+<td dir="ltr">Illagers bane</td>
+<td dir="auto">???</td>
+<td dir="ltr">V</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">35</td>
+<td dir="ltr">Illegal enchantment</td>
+<td dir="auto">???</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">36</td>
+<td dir="ltr">Impact</td>
+<td dir="ltr">Permet au Grappin-batteur d'infliger une attaque chargée</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">37</td>
+<td dir="ltr">Infinité</td>
+<td dir="ltr">Permet à l'arc de tirer des flèches normales gratuitement<br>Vous devez avoir au moins une flèche pour que cela fonctionne</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">38</td>
+<td dir="ltr">Knockback</td>
+<td dir="ltr">Augmente la force de recul de l'arme</td>
+<td dir="ltr">II</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">39</td>
+<td dir="ltr">Loyauté</td>
+<td dir="ltr">Permet au trident de revenir automatiquement après avoir été lancé</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">40</td>
+<td dir="ltr">Luck</td>
+<td dir="ltr">Augmente la chance d'obtenir de meilleurs loot</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">41</td>
+<td dir="ltr">Malédiction de volatilisation</td>
+<td dir="ltr">Détruis l’objet enchanté si vous mourez avec dans votre inventaire</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">42</td>
+<td dir="ltr">Malédiction d'indissociabilité</td>
+<td dir="ltr">Empêche que l'objet enchanté soit retiré d'un emplacement d'armure</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">43</td>
+<td dir="ltr">Marche givrée</td>
+<td dir="ltr">Transforme l'eau en glace lors du passage du joueur</td>
+<td dir="ltr">II</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">44</td>
+<td dir="ltr">Might</td>
+<td dir="auto">???</td>
+<td dir="ltr">V</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">45</td>
+<td dir="ltr">Outreach</td>
+<td dir="auto">???</td>
+<td dir="ltr">IV</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">46</td>
+<td dir="ltr">Perforation</td>
+<td dir="ltr">Permet aux projectiles de transpercer plusieurs entités</td>
+<td dir="ltr">IV</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">47</td>
+<td dir="ltr">Photosynthesis</td>
+<td dir="ltr">L'outil se répare lorsqu'il est exposé au soleil</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">48</td>
+<td dir="ltr">Poignardage par derrière</td>
+<td dir="ltr">Augmente les dégâts quand une cible est frappée par derrière</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">49</td>
+<td dir="ltr">Protection</td>
+<td dir="ltr">Réduit les dégâts de la plupart des sources</td>
+<td dir="ltr">IV</td>
+<td dir="ltr">VIII</td>
+</tr>
+<tr>
+<td dir="auto">50</td>
+<td dir="ltr">Protection contre le feu</td>
+<td dir="ltr">Réduit les effets de dégâts d'incendie<br>Réduit également le temps de combustion des flammes</td>
+<td dir="ltr">IV</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">51</td>
+<td dir="ltr">Protection contre les explosions</td>
+<td dir="ltr">Réduit les dégâts dûs aux explosions et aux renversements d'explosion</td>
+<td dir="ltr">IV</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">52</td>
+<td dir="ltr">Protection contre les projectiles</td>
+<td dir="ltr">Réduit les dégâts causés par les projectiles tels que les flèches et les boules de feu</td>
+<td dir="ltr">IV</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">53</td>
+<td dir="ltr">Puissance</td>
+<td dir="ltr">Augmente les dégâts des flèches tirées par l'arc</td>
+<td dir="ltr">V</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">54</td>
+<td dir="ltr">Punch</td>
+<td dir="ltr">Augmente la résistance au renversement des flèches tirées par l'arc</td>
+<td dir="ltr">II</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">55</td>
+<td dir="ltr">Rafale de vent</td>
+<td dir="ltr">Les attaques de chute avec la Mace relance le joueur dans les airs</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">56</td>
+<td dir="ltr">Rapidité des âmes</td>
+<td dir="ltr">Augmente la vitesse de déplacement sur les blocs des âmes</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">57</td>
+<td dir="ltr">Récupération de pomme de terre</td>
+<td dir="ltr">Les projectiles du canon à pomme de terre ont une chance d'être réutilisés</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">58</td>
+<td dir="ltr">Réparation</td>
+<td dir="ltr">Répare la durabilité de l'armure et des outils avec de l'EXP</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">59</td>
+<td dir="ltr">Respiration</td>
+<td dir="ltr">Augmente le temps que le joueur peut passer sous l'eau<br>Améliore également la vision sous l'eau</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">60</td>
+<td dir="ltr">Solidité</td>
+<td dir="ltr">L'outil perd en durabilité à un rythme plus lent</td>
+<td dir="ltr">III</td>
+<td dir="ltr">V</td>
+</tr>
+<tr>
+<td dir="auto">61</td>
+<td dir="ltr">Stase</td>
+<td dir="ltr">Permet aux munitions du lance-pierre de ne plus respecter les lois de la gravité</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">62</td>
+<td dir="ltr">Tir multiple</td>
+<td dir="ltr">Tir des flèches additionelles dans des directions similaires</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">63</td>
+<td dir="ltr">Traveler</td>
+<td dir="auto">???</td>
+<td dir="ltr">III</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">64</td>
+<td dir="ltr">Tri-shot</td>
+<td dir="auto">???</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">65</td>
+<td dir="ltr">Toucher de soie</td>
+<td dir="ltr">Permet de collecter des blocs fragiles tels que du verre</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">66</td>
+<td dir="ltr">Wax wings</td>
+<td dir="auto">???</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">67</td>
+<td dir="ltr">Wither coated</td>
+<td dir="auto">???</td>
+<td dir="ltr">I</td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="0xydium/enchantements.html#Enchantements_0" data-path="#Enchantements_0"><div class="tree-item-inner heading-link" heading-name="Enchantements">Enchantements</div></a><div class="tree-item-children"></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
