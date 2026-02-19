@@ -6,6 +6,8 @@
   <title>OXYSTUDIO — Where universes are built</title>
   <meta name="description" content="Index / landing page inspirée d'une esthétique mécanique-cosmique. Remplacez l'image de fond par la vôtre." />
 
+  <link rel="icon" href="site-lib/media/favicon.png" type="image/png" />
+
   <!-- Fonts (distinct display + readable body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,6 +52,8 @@
       min-height: 100svh;
       position: relative;
       isolation: isolate;
+      display: flex;
+      flex-direction: column;
       background:
         radial-gradient(1200px 700px at 50% 42%, rgba(0,0,0,.12), rgba(0,0,0,.78)),
         linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.78) 58%, rgba(0,0,0,.92) 100%),
@@ -262,7 +266,7 @@
       flex-direction:column;
       gap:.95rem;
       align-self:stretch;
-      justify-content:flex-end;
+      justify-content:center;
     }
 
     .panel{
@@ -369,6 +373,7 @@
     .rail .pill svg{ width:18px; height:18px }
 
     footer{
+      margin-top: auto;
       padding: 1.6rem 0 2.2rem;
       border-top: 1px solid rgba(244,246,251,.10);
       background: linear-gradient(180deg, rgba(0,0,0,.0), rgba(0,0,0,.35));
