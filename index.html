@@ -804,8 +804,8 @@
         camera.aspect = w / h;
         camera.updateProjectionMatrix();
         const wide = camera.aspect > 1.1;
-        gyro.position.x = wide ? 7.5 : 0;
-        gyro.position.y = wide ? -0.5 : 4.5;
+        gyro.position.x = 0;
+        gyro.position.y = wide ? 7 : 4.5;
         const s = wide ? 1 : .72;
         gyro.scale.set(s, s, s);
       }
