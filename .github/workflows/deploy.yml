@@ -1,4 +1,4 @@
-name: Construire le site OXYSTUDIO
+name: Construire et déployer le site OXYSTUDIO
 
 on:
   push:
@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -51,3 +53,14 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Mettre le site en ligne
+        id: deployment
+        uses: actions/deploy-pages@v5
