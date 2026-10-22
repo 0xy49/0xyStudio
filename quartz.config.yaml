@@ -15,30 +15,31 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      title: Manrope
+      header: Manrope
+      body: Manrope
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#07090c"
+        lightgray: "#23262d"
+        gray: "#6b6f78"
+        darkgray: "#d6d8de"
+        dark: "#f4f6fb"
+        secondary: "#caa35b"
+        tertiary: "#e5c98a"
+        highlight: rgba(202, 163, 91, 0.12)
+        textHighlight: "#caa35b55"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#07090c"
+        lightgray: "#23262d"
+        gray: "#6b6f78"
+        darkgray: "#d6d8de"
+        dark: "#f4f6fb"
+        secondary: "#caa35b"
+        tertiary: "#e5c98a"
+        highlight: rgba(202, 163, 91, 0.12)
+        textHighlight: "#caa35b55"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -109,15 +110,26 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      useThemeFonts: false
+      title:
+        name: Audiowide
+        weights: [400]
+      header:
+        name: Audiowide
+        weights: [400]
+      body: Manrope
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: default
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/unlisted-pages"
     enabled: true
     options: {}
@@ -200,7 +212,7 @@ plugins:
       position: left
       priority: 10
   - source: "@quartz-community/darkmode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30
