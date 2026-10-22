@@ -12,3 +12,22 @@
     --callout-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M13 12h8'/%3E%3Cpath d='M13 18h8'/%3E%3Cpath d='M13 6h8'/%3E%3Cpath d='M3 12h1'/%3E%3Cpath d='M3 18h1'/%3E%3Cpath d='M3 6h1'/%3E%3Cpath d='M8 12h1'/%3E%3Cpath d='M8 18h1'/%3E%3Cpath d='M8 6h1'/%3E%3C/svg%3E");
   }
 }
+
+// ─── Badges (remplacent Inline Callouts, même style dans Obsidian : snippet Badges.css) ───
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  font-size: 0.9em;
+  font-weight: 600;
+  white-space: nowrap;
+  color: rgb(var(--badge-rgb));
+  background-color: rgba(var(--badge-rgb), 0.12);
+  border: 1px solid rgba(var(--badge-rgb), 0.35);
+
+  &.badge-orange { --badge-rgb: 233, 151, 63; }
+  &.badge-yellow { --badge-rgb: 224, 222, 113; }
+}
