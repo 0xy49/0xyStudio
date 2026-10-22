@@ -36,3 +36,13 @@
 td {
   vertical-align: top;
 }
+
+// Espace en haut de page réduit (Quartz utilise 6rem par défaut)
+.page > #quartz-body {
+  .sidebar {
+    padding-top: 1.5rem;
+  }
+  .center > .page-header {
+    margin-top: 1.5rem;
+  }
+}
