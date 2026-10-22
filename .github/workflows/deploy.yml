@@ -1,0 +1,53 @@
+name: Construire le site OXYSTUDIO
+
+on:
+  push:
+    branches:
+      - quartz
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Mettre en cache les dépendances npm
+        uses: actions/cache@v5
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Installer les plugins Quartz
+        run: npx quartz plugin install --from-config
+
+      - name: Construire le site avec Quartz
+        run: npx quartz build
+
+      - name: Ajouter la landing page
+        run: cp -r landing/. public/
+
+      - name: Préparer le site pour GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
