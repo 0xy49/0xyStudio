@@ -1,12 +1,11 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: 0xyStudio
+  pageTitleSuffix: " - 0xyStudio"
   enableSPA: false
   enablePopovers: true
-  analytics:
-    provider: plausible
-  locale: en-US
+  analytics: null
+  locale: fr-FR
   baseUrl: 0xystudio.com
   ignorePatterns:
     - private
@@ -229,9 +228,7 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+      links: {}
     layout:
       position: footer
       priority: 50
