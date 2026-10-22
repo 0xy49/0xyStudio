@@ -4,9 +4,8 @@ aliases:
   - Affinités
   - Faiblesses des écoles
 created: 2026-10-22T13:07:23.851Z
-modified: 2026-10-22T13:07:23.852Z
+modified: 2026-10-22T14:15:58.935Z
 tags:
-  - 0xydium
   - magie
 ---
 
