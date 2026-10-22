@@ -31,3 +31,8 @@
   &.badge-orange { --badge-rgb: 233, 151, 63; }
   &.badge-yellow { --badge-rgb: 224, 222, 113; }
 }
+
+// Cellules de tableau alignées en haut, comme dans Obsidian
+td {
+  vertical-align: top;
+}
