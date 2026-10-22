@@ -46,3 +46,11 @@ td {
     margin-top: 1.5rem;
   }
 }
+
+// Surlignages : texte coloré sans fond, comme le snippet Obsidian « Highlight color »
+// (Quartz ne gère pas encore les surlignages colorés 🟢🔴 d'Obsidian 1.14)
+mark,
+.text-highlight {
+  background-color: transparent;
+  color: rgb(255, 203, 119);
+}
