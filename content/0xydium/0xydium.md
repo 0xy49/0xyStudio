@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-10-02T04:30:09.369Z
-modified: 2026-10-22T12:40:07.834Z
+modified: 2026-10-22T16:38:32.962Z
 ---
 
 ![0xydium](https://i.imgur.com/96KgdvW.png)
@@ -9,7 +9,7 @@ modified: 2026-10-22T12:40:07.834Z
 
 ## Infos
 
-> [!logs] [[Logs|Logs]]
+> [!logs] [[0xydium/Logs/Logs|Logs]]
 
 ## Index
 
