@@ -1,17 +1,7 @@
-# Quartz v5
+# OXYSTUDIO
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Source code of **[0xystudio.com](https://0xystudio.com)**: the studio's landing page and the wiki of 0xydium, a modded Minecraft server.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+- `landing/`: the landing page, hand-written HTML (with Three.js)
+- `content/`: the wiki notes, published from Obsidian with Quartz Syncer
+- Everything else is the [Quartz](https://quartz.jzhao.xyz/) v5 engine (MIT license, see `LICENSE.txt`), which builds the site and deploys it to GitHub Pages with GitHub Actions.
