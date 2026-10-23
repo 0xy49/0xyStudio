@@ -1,12 +1,7 @@
 ---
 publish: true
-aliases:
-  - Affinités
-  - Faiblesses des écoles
 created: 2026-10-22T13:07:23.851Z
-modified: 2026-10-22T14:15:58.935Z
-tags:
-  - magie
+modified: 2026-10-22T22:52:33.162Z
 ---
 
 # ⚔️ Table des affinités
