@@ -1,16 +1,16 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-10-24T13:57:10.079Z
+modified: 2026-10-24T14:05:08.962Z
 ---
 
 # 24/10/26
 
-> [!note]- \[EMF] Entity Model Features 3.3.12
+> [!note]- Entity Model Features 3.3.12
 >
 > - Several optimizations to ASM animations, resulting in a notable fps increase with larger animations. Thanks to Wyvest on GitHub
 
-> [!note]- \[ETF] Entity Texture Features 7.2.6
+> [!note]- Entity Texture Features 7.2.6
 >
 > - improved performance of NBT property testing, also applies to the EMF NBT animation function
 
@@ -143,7 +143,7 @@ modified: 2026-10-24T13:57:10.079Z
 > - Fix codec unwrapper mixin on new Neo build (Su5eD)
 > - Dehardcode publish settings (Su5eD)
 
-> ## \[!note]- Fragmentum 5.4.0
+> [!note]- Fragmentum 5.4.0
 >
 > - Added a **Lite** version under **Additional Files** without bundled dependencies, ideal for modpack creators who prefer to manage Fragmentum dependencies manually or already include them in their modpack
 
