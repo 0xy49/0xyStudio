@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-10-02T04:30:09.369Z
-modified: 2026-10-22T16:55:11.522Z
+modified: 2026-10-24T14:23:46.149Z
 ---
 
 ![0xydium](https://i.imgur.com/96KgdvW.png)
@@ -13,10 +13,9 @@ modified: 2026-10-22T16:55:11.522Z
 
 ## Index
 
-| Histoire                                                                                                                  | Classes / Spells                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[🌍 Histoire d’Astreval\|Lore]]<br>[[🗺️ Carte narrative d’Astreval\|Carte narrative]]<br>[[📚 Codex d’Astreval\|Codex]] | [[Warrior]]<br>[[Assassin]]<br>[[Mage]]                                                                                                                                                  |
-|                                                                                                                           | [[Ice School]]<br>[[Fire School]]<br>[[Lightning School]]<br>[[Nature School]]<br>[[Blood School]]<br>[[Evocation School]]<br>[[Holy School]]<br>[[Ender School]]<br>[[Eldritch School]] |
+| Histoire                                                                                                                  | Classes                                 | Écoles                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[🌍 Histoire d’Astreval\|Lore]]<br>[[🗺️ Carte narrative d’Astreval\|Carte narrative]]<br>[[📚 Codex d’Astreval\|Codex]] | [[Warrior]]<br>[[Assassin]]<br>[[Mage]] | [[Ice School]]<br>[[Fire School]]<br>[[Lightning School]]<br>[[Nature School]]<br>[[Blood School]]<br>[[Evocation School]]<br>[[Holy School]]<br>[[Ender School]]<br>[[Eldritch School]] |
 
 ### Quelques liens utiles
 
