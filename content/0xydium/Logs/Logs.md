@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-10-24T14:05:08.962Z
+modified: 2026-10-24T14:20:13.792Z
 ---
 
 # 24/10/26
@@ -312,4 +312,5 @@ modified: 2026-10-24T14:05:08.962Z
 
 ## Configs
 
+- Neoforge version : `21.1.259` => `21.1.264`
 - Removed [Create: Blueprinted](https://modrinth.com/mod/create-blueprinted)
