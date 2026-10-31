@@ -1,316 +1,261 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-10-24T14:20:13.792Z
+modified: 2026-10-31T15:30:38.771Z
 ---
 
-# 24/10/26
+# 31/10/26
 
-> [!note]- Entity Model Features 3.3.12
+> [!note]- 0xydium
 >
-> - Several optimizations to ASM animations, resulting in a notable fps increase with larger animations. Thanks to Wyvest on GitHub
+> - Update to NeoForge Version `21.1.265`
+> - Remove Copper Armor & Tools
+> - Remove Mushroom Scale system
 
-> [!note]- Entity Texture Features 7.2.6
->
-> - improved performance of NBT property testing, also applies to the EMF NBT animation function
+> [!note]- Amendments 2.2.5
+> more configs and compat code
 
-> [!note]- 3D Skin Layers 1.11.4
->
-> - Fix EMF resource packs not working on Forge, especially 1.20.1. Fix Fix
-> - Keep track of Resource loaded textures to not leak them. Related to
-> - Added ms\_my.json
-> - Fixed existing Italian Localization file
-> - Update libs fixing leak issues in combination with Fabric API
-> - Update libs fixing a rare crash happening on Forge when loading many of my mods at once
-
-> [!note]- Alex's Mobs Continued 2.2.4
-> **Fixes**
->
-> - Minecraft 26.3: the enchantment shine was drawn as a solid block with the missing texture. That put a purple blob on enchanted modded armour (such as the frontiersman's cap), made comb jellies look untextured, and covered mobs given rainbow jelly. Fixed.
->
-> Needs CodxLib 1.6.0 or newer. Fabric also needs Fabric API.
-
-> [!note]- AmbientSounds 6.3.11
->
-> - Added better differentiation between grass and grass blocks to support custom biomes with different ground materials
-> - Fixed not playing crickets near rivers
-
-> [!note]- Amendments 2.2.0
->
-> - added smooth animated hotbar slot animation
-> - added a feature that makes walls, fence and panes all connect to eachother
-> - Enhanced Block Entities now leaves signs and bells alone when amendments changes them, removed the chat warning
-> - added some iris compat code since iris broke held candle holder particles
-
-> [!note]- Aquamirae 7.2.13
->
-> - Fixed armor items not having their durability set
-
-> [!note]- AzureLib 3.2.0
-> v3.2.0
+> [!note]- AzureLib 3.2.4
+> v3.2.4
 >
 > **Additions**
 >
-> - Added bone hitboxes. Entities can now define hitboxes that follow bones in their model, rotate with them, and stay in sync with whatever animation is playing. Implement `AzHitboxHolder` and return an `AzHitboxSet` to use them.
-> - Hitboxes can fit a bone's cubes automatically or use an explicit size, offset and inflate in Blockbench pixels, and several hitboxes can share one bone.
-> - Hitboxes have three roles.
->   - `COMBAT` hitboxes take crosshair targeting, projectiles and damage.
->   - `INTERACT` hitboxes can be right-clicked to trigger custom logic without affecting combat.
->   - `ANCHOR` hitboxes can't be hit and exist only to track a bone's position.
->     …
-
-> [!note]- Climbable Ropes for Create Aeronautics 2.2.0
-> **Changed**
+> - Added spring bone colliders. `AzSpringCollider` is a sphere or capsule attached to a bone, positioned in Blockbench pixels from the bone's pivot, that follows the bone's animated pose. Spring chains can't pass through them, so tails, ears and capes swing around the body instead of through it. One collider can be shared by several chains.
+> - Added `AzSpringBone.Builder#collider` to give a chain its colliders, `#radius` for how thick the chain is, and `#ground` to keep the chain above the entity's feet (or the model's origin for items and block entities).
 >
-> - Replaced the pre-made climbing animations with a procedural climbing pose that adapts to any rope angle: hands grip the rope, feet lock around it and the legs push while climbing
-> - Players now crawl along flat and sagging ropes with the new climbing pose instead of Create's hanging pose
-> - The mod no longer requires the Player Animator library
-
-> [!note]- Collective 8.65 neo
->
-> - (1.20.1) Backported Collective to work with NeoForge 47.1.(1.21.1 Forge) Backported Collective to work with the older Forge versions.The complete changelog with detailed information about previous versions can be found on my website: >
-
-> [!note]- Corpse 1.1.22
->
-> - Updated Ukrainian translation
-
-> [!note]- Create Encased 1.10.0
-> CreateEncased 1.10.0 - The In-World Update:
->
-> **Gameplay Changes**
->
-> - Add Industrial Iron, Weathered Iron, Shadow Steel, Refined Radiance and Chorium Sheets for crafting
-> - Encased Blocks are no longer changeable in-world with the casing or the ingot.
-> - Add the Recaser, a new item that allows you to change the casing/material of encased blocks in-world. It uses the plate of the material you want to change to, and can be used on any encased block.
-> - Recipes for encased blocks have been changed to only use the plates. Encased blocks no longer uses the recipe from the original Create block, but instead uses the plate of the material you want to use.
-> - Encased blocks can now be crafted by using a deployer with the associated plate.
-> - Add Zinc stuff + New Zinc casing texture
->   …
-
-> [!note]- Create: Factory Controller 1.2.3
-> Bugfixes:
->
-> - Fixed dedicated server crash on load
-> - Fixed repackager not properly merge fluid & item packages ordered from stock keeper again
-
-> [!note]- Create: Filters Anywhere 2.7.0
-> Quite a few new things!
->
-> New Mod Support: Pipez, adds support for all supported Filter items to Pipez's item pipes. Also adds Pipez Upgrade cards as a supported filter item.
->
-> New Mod Support: Railcraft Reborn, adds support for all supported Filter items to the Item Loader and Item Unloader.
->
-> New Mod Support: Ars Nouveau, adds support for all supported Filter items to the Storage Lectern system (using item frames to filter inventories). Also adds item allow and deny scrolls as supported filter items.
->
-> New Mod Support: FTB Quests, adds support for all supported Filter items to be used as you would use the filters from FTB Filter system. For example, if you put in a Create filter with "can be washed", the quest will accept all items that match that criteria.
+> **Changes**
 > …
 
-> [!note]- Easy NPC 7.17.0
+> [!note]- Collective 8.72 neo
 >
-> - Fixed by no longer rewriting NPC files on every chunk unload when nothing changed.
-> - Fixed following NPCs walking or teleporting to coordinates of a target in another dimension.
-> - Fixed equipment, name, inventory, dialog and objective changes not always being saved.
-> - Fixed preset exports being left broken when the server stopped while writing them.
-> - Fixed `/easy_npc scale`, `rotate` and `position` rejecting the `root` model part.
-> - Fixed `/easy_npc name clear` leaving the name visible above the NPC.
-> - Fixed the hat layer staying visible when the head of a humanoid NPC was hidden.
-> - Fixed dead, riding, ridden or leashed NPCs being put on a shoulder by commands or the API.
-> - Fixed shoulder NPC rendering comparing all NPC data every frame and leaking on disconnect.
->   …
+> - Fixed issues related to Collective's player respawn function, used by dependent mods.(26.1.2 NeoForge) Removed the temporary fix for some dependent mods not showing their icon.The complete changelog with detailed information about previous versions can be found on my website: >
 
-> [!note]- Easy NPC: Config UI 7.17.0
-> Même changelog que Easy NPC.
-
-> [!note]- Easy NPC: Core 7.17.0
-> Même changelog que Easy NPC.
-
-> [!note]- Essential Mod 1.5.1
-> **Analytics sharing is now disabled by default**
-> Your data, your choice. When starting Essential for the first time, you will now be asked whether you'd like to share usage data or not. Sharing analytics helps our team make better decisions about the development of Essential. You can change your choice any time in the Essential settings.
-> Learn more about data sharing
+> [!note]- Concurrent Chunk Management Engine (NeoForge) 0.4.0-alpha.0.124
+> This version is uploaded automatically by GitHub Actions.
 >
-> **Bug fixes**
+> Changelog:
 >
-> - Fixed skin uploads failing in the Wardrobe
-> - Fixed not being able to OP players when hosting a world on Minecraft 26.3
-> - Fixed the world not pausing after stopping hosting on Minecraft 26.2 and above
-> - Fixed incoming friend requests appearing as outgoing in the Essential social menu
-> - Fixed command auto-completion not updating after toggling cheats on Minecraft 1.16 and above
->   …
+> - 88b41272 new: implement ChunkTicketLevelUpdatedEvent - ishland
 
-> [!note]- Forgified Fabric API 0.116.15+2.3.6
+> [!note]- Create Encased 1.10.0-fix1
+> CreateEncased 1.10.0-fix1:
 >
-> - Fix codec unwrapper mixin on new Neo build (Su5eD)
-> - Dehardcode publish settings (Su5eD)
-
-> [!note]- Fragmentum 5.4.0
+> **Translations**
 >
-> - Added a **Lite** version under **Additional Files** without bundled dependencies, ideal for modpack creators who prefer to manage Fragmentum dependencies manually or already include them in their modpack
-
-> [!note]- Fresh Animations 1.11.1
-> Recommended with Entity Model Features & Entity Texture Features.
+> - Update zh\_cn translation
 >
-> ---
+> **Bug Fixes**
 >
-> **Changes**
+> - Fix shafts and cogwheels recipe overriding
+> - Fix chains can't be placed because of Chain conveyors
+
+> [!note]- Create: Bits 'n' Dyes 1.1.3
 >
-> - fixed baby pigs 26.1+
-> - fixed baby villager model 26.1+
-> - removed unnecessary properties files
-> - updated pack meta files
+> - Fix frogport goggle display
+>   - Fix latest sound of steam incompatibility
 
-> [!note]- Item Zoomer 2.3.0
+> [!note]- Create: Cyber Goggles 8.7.0
 >
-> - Added support for Minecraft 26.3;
-> - Added item zoom in stonecutter and villager trading screens;
-> - Added Simplified Chinese translation;
-> - Other minor improvements.
+> - Add expression input to quantity boxes
+> - Add a multiplier field and an apply button to quantity screens to scale every value at once
+> - Add an option to abbreviate large item counts
+> - Optimize the force overlay: cluster arrows per force group and cap their count to reduce lag
+> - Fix the filter preview typing an extra character into the opened screen
+> - Make the filter preview read-only, and allow third-party mods to register their own preview screens
 
-> [!note]- Just Enough Items (JEI) 19.69.0.457
+> [!note]- Create: Radars 5.0.3
 >
-> - Check published jars for Java bytecode compatibility - mezz
+> - Fixed Filterer rendering on Network Block
+> - Fixed ghost Datalinks in some situations
+> - Fixed Swivel accuracy when cannon mount is placed further from the swivel
+> - Reworked Jammers config so that its more intuitive and works out of the box for more cases
+> - Binocular obstruction checks removed except when targeting sable ships
 
-> [!note]- Just Enough Resources (JER) 1.6.0.54
-> \[cd328c2] add missing enviroment for CF upload to Forge - hopefuly this fixes backport 1.21.1 release (way2muchnoise)
-
-> [!note]- Keybind Atlas 2.0.0
-> Included multiple suggestions from user feedback, including:
+> [!note]- Create: Sound of Steam 0.9.2.1
+> 1.21.1-specific patch
+> **Bugfixes**
 >
-> - **Edit mode overhaul**: Improved flow of editing keybinds, making it faster and more intuitive. Added per-binding restore controls, strikethrough and color-coded feedback for removed/reassigned keys, and a better summary of changes before applying.
-> - **Added search bar** for main UI, filter list, and edit mode. Filter by mod or action.
-> - **Keybind sets feature**: The user can now save and load keybind sets, allowing them to switch between different configurations easily. Users can save the current keybinds as a new set, delete or rename existing sets, and create new sets that are copies of the current keybinds. The sets are saved in a JSON file in the config folder.
->   …
+> - Server crash upon trying to decode keyboard relay packets
+> - Diapason and Prestant missing from the creative menu
+> - Several issues with the MIDI config GUI
 
-> [!note]- MakeUp - Ultra Fast 9.6
-> **Changes**
+> [!note]- CreativeCore 2.13.52
 >
-> - Added selective temporal supersampling as an alternative to reduce or eliminate the ghosting effect caused by entities. Contributed by Dantar.
-> - Fixed a previously introduced bug that prevented the shader from running on Minecraft 1.12.2 (OptiFine).
-> - Updated some strings in the Russian translation. Contributed by ShallIMove.
-> - Reorganized the options on the settings screen.
+> - Fixed origin pose not getting updated during collision
 
-> [!note]- oÏo (owo-lib) 0.12.15.6-beta.1
-> **Fixes**
->
-> - ConfigureHotReloadScreen error due to parsing ResourceLocation as string
-> - Resolve issue with latest neoforge update due to changes to internal network code
-> - Fix issues where null EdmElements within EdmOPs may exist due to reliance on such by other mods
-
-> [!note]- Photon Shaders v1.4
-> This update contains lots of improvements and fixes made by the community!
->
-> - Added support for Photonics (by Essentuan)
-> - Added support for Colorwheel (by xuanplus and djefrey)
-> - Added more settings for atmosphere saturation, blocky clouds, vanilla AO and colored lights vanilla lightmap contribution (by PatataNL)
-> - Added Korean translation (by shihyeon)
-> - Added vertical cutoff to border fog (by Candymanmax)
-> - Added simplylights blocks to Colored Lights (by rockett1)
-> - Many misc. bug fixes by:
->   - Lassebq
->   - rrtt2217
->   - 3DpCode
->   - yqs112358
->   - jspaterson000
->   - IMS
-> - Improved bloom upsampling
-> - Fixed some MC 26.3 rendering
-
-> [!note]- Punchy! 2.8g
-> **Animation fixes**
->
-> - Fixed a brief offhand flash during inspect animations and restored missing inspect sounds across affected versions. Thanks to shbashi for reporting these issues!
-> - Fixed throwable use animations when consuming the last item in a stack and when interrupting a two-handed equip animation.
-> - Custom animation movement settings now apply correctly during actions and item equip transitions, with smooth transitions back to idle.
-> - Fixed movement influence for two-handed animations so it applies to both arms while keeping single-arm actions isolated.
-> - Fixed custom item idle poses being applied twice through the locomotion layer.
-> - Preserved global arm position and rotation offsets during attacks and item equip transitions.
->   …
-
-> [!note]- Puzzles Lib 21.1.65
-> **Fixed**
->
-> - Ensure the enchanted loot bonus callback only runs once on NeoForge
-
-> [!note]- Regions Unexplored 0.6.3
->
-> - Redstone Bulbs and Prismarite Clusters can now be placed facing any direction.
-> - Refreshed a handful of existing block textures.
->   - Blackwood Planks
->   - Short Dry Grass (+ Red variant)
->   - Frozen Grass
->   - Glistering Sprout
->   - Flowering Leaves
->   - Salmonberry
->   - Hanging Earlight Fruit
->   - Icicle
-> - Fixed RU's boats acting weird if there was a second player or chest inside.
-> - Fixed the Prismachasm and Redstone Caves biomes not generating if certain other biome mods were installed.
-> - Fixed spruce saplings sometimes growing Pine trees.
-
-> [!note]- Solas Shader 3.8
-> Some bug fixes and 26.3 compatibility
-
-> [!note]- Sophisticated Backpacks 3.26.14.2222
+> [!note]- Cubes Without Borders 5.0.0+1.21.0.
 > **Features**
 >
-> - Updated Japanese translation (Thanks Nearpoin)
-
-> [!note]- Sophisticated Core 1.5.17.2426
-> **Fixes**
->
-> - Fixed Pump Upgrades bypassing claims when accessing nearby tanks
-
-> [!note]- Sophisticated Item Actions 0.5.18.441
-> **Fixes**
->
-> - Fixed item highlighting disconnects around large storage setups
-
-> [!note]- Sound Physics Remastered 1.5.2
->
-> - Applied a proper fix for OpenAL reference distance issue in affected versions
-> - Restored old linear attenuation by distance behavior
-
-> [!note]- Starter Kit 9.0 neo
->
-> - Added Curios and Trinkets support! Kits now save and give items automatically in their slots.
-> - Added kit commands, which run when a kit is given. They can be set in './config/serilum/starterkit/commands/'.
-> - Added the 'giveStarterKitOnRespawn', 'giveStarterKitOnFirstJoin', 'lockKitChoiceScreen' and 'randomKitWeights' config options.
-> - Kits can now be ordered by starting their name with a number, such as '1\_Warrior'.
-> - Kit names, descriptions and the choose kit text can now be translation keys.
-> - Fixed players joining a hosted singleplayer world, such as via Essential, not receiving a starter kit.
-> - Fixed kit tracking being incorrect or undone after a server restart.
-> - Fixed some cases where items could be duplicated, lost or shown incorrectly when receiving a kit.
+> - Added a new Fullscreen Mode option, `Windowed`, to simplify access to secondary borderless fullscreen types that prioritize preserving the characteristics of a windowed application over performance
+>   - Users who previously changed the `Borderless Fullscreen Type` option in the mod's settings for this exact reason are encouraged to revert those changes and use this new fullscreen mode instead
+> - Added two new macOS-related config options, `autoHideDock` and `autoHideMenuBar`, which control whether the dock and the menu bar, respectively, can be revealed by moving the mouse to the edge of the screen when using borderless fullscreen, rather than being hidden entirely
 >   …
 
-> [!note]- Villager Names 8.9 neo
+> [!note]- Data Anchor 2.0.0.18
 >
-> - Added the 'extraEntityTypesToName' and 'entityTypesToIgnore' config options.
-> - Improved the modded villager detection, which finds more villagers and traders to name that aren't on the list.
-> - Added compatibility with Visiting Villagers, Villager Workers, Villager Golem Healer and Millager.The complete changelog with detailed information about previous versions can be found on my website: >
+> - Fix race condition
 
-> [!note]- Wavey Capes 1.11.3
+> [!note]- Easy NPC 7.17.1
 >
-> - feat: Support for MoreBannerFeatures by @DomiIRL in  (needs a future release of MoreBannerFeatures)
-> - Improve performance of cape rendering
-> - Update libs fixing leak issues in combination with Fabric API
-> - Update libs fixing a rare crash happening on Forge when loading many of my mods at once
+> - Refactored the build to no longer ship tests, which makes the mod files up to 20 % smaller.
 
-> [!note]- Almanac 1.26.10.3
+> [!note]- Easy NPC: Config UI 7.17.1
+> Même changelog que Easy NPC.
+
+> [!note]- Easy NPC: Core 7.17.1
+> Même changelog que Easy NPC.
+
+> [!note]- Fresh Animations: Extensions 1.10.0
+> **All Extensions 1.10 Includes:**
 >
-> - **Fixed**
-> - Bundles Dungeon Config 1.26.10.3: opening **Options > Controls > Key Binds** no longer crashes. The Dungeon Configs key (Ctrl + K) used a key category Minecraft did not know about, so sorting the key list failed.
+> - Details Add-on 2.4
+> - Objects Add-on 2.1.3
+> - Quivers Add-on 2.3
+> - Emissive Add-on 1.7
+> - Creeper Edit 2.2
+> - Spiders Edit 2.3
+>
+> **Details Add-on 2.4:**
+>
+> - added baby textures and models for pigs, sheep, cows, mooshroom
+> - added baby sheep texture variants
+> - added tweaked baby villager and zombie villager textures
+> - added tweaked baby armour models and textures
+> - added baby muddy pig texture variants
+> - added baby donkey and mule textures and models
+> - improved llama and donkey chest textures
+> - tweaked temperate and cold cow textures
+> - tweaked llama models
+> - tweaked models to use FA 1.11 format
+> - fixed broken models
+> - fixed iron golem brow and pupils sometimes z-fighting
+> - fixed cold cow horns texture UVs
+>
+> **Emissive Add-on 1.7:**
+>
+> - added classic bat
+>   …
 
-> [!note]- Let Me Despawn 1.26.10.2
+> [!note]- Fzzy Config 0.7.7+fix1
+> **Breaking changes in 0.7.x**
+>
+> - `ValidatedEnumMap` is removed
+> - Removed all methods and properties marked as Deprecated and for removal 0.7.0
+>   - `SmallSpriteDecoration#`
+>   - `SpriteDecorated#textureSet` & `textures` is now a required override
+>   - `SpriteDecoration#`
+>   - `CustomButtonWidget#` & builder is now only non-override method for adding custom button
+>   - Removed `ActiveButtonWidget`
+>   - Removed `TextlessActionWidget`
+>   - `DynamicListWidget.EntryPos` and implementations made `internal`
+>   - `PopupWidget` position elements; `LayoutWidget` no longer inherits from the PopupWidget variant
+>   - Removed deprecated overrides of `PopupController` from `PopupParentElement`
+>   - `SuggestionWindowListener` and `SuggestionWindowProvider` moved out of `internal` sub-package
+>     …
+
+> [!note]- Hyper Punchy 2.8
+> **Fix Update!!!**
+>
+> We’ve completely switched to Blender for the infrastructure.
+>
+> Many new animations have been created.
+>
+> Hand positioning bugs and tool animation loops have been fixed.
+>
+> We’ve completely dropped the Respackopts dependency.
+>
+> Mixpack bugs fixed.
+>
+> Camera animations are temporarily unavailable, they’ll be included in the next release.
+>
+> Curseforge now has an official same version good news for our friends there too :P
+
+> [!note]- Iron's Lib 2.3.0
+> **Additions**
+>
+> - Added Autumn Knight Transmog
+> - Added Pumpkin Heads Transmog
+
+> [!note]- Just Enough Items (JEI) 19.70.0.468
+>
+> - Fix IME input after search actions - mezz
+
+> [!note]- Just Enough Resources (JER) 1.6.0.60
+> \[6815e71] Update Russian localization (GitHub)
+
+> [!note]- Keybind Atlas 2.1.1
+>
+> - Fix crash
+
+> [!note]- MezzConfig 0.6.10
+>
+> - Expose immutable sorting snapshots - mezz
+>   - Bump version to 0.6.9 - mezz
+>   - Dispatch config listeners outside schema locks - mezz
+>   - Add Simplified Chinese translation - jim139129
+>   - Use AtomicFile for config file operations - mezz
+>   - Bump version to 0.6.8 - mezz
+>   - Fix Windows path and file replacement tests - mezz
+>   - Quote the Minecraft version argument in Windows CI - mezz
+>   - Retry Windows file sharing failures during config saves - mezz
+>   - Separate staged and committed config file states - mezz
+
+> [!note]- Punchy! 3.0
+> **The new Punchy menu**
+>
+> - Punchy has a brand new menu, opened with F8, from Mod Menu or from the Forge and NeoForge config buttons. Settings, Mix Packs, profiles, the item blacklist and the Hand Editor are all in one place, with a new look.
+> - If the new menu ever fails to open, Punchy falls back to the old settings screen until the game restarts.
+> - Other mods can add their own tabs to Punchy's menu.
+> - The Hand Editor now returns to the menu when you close it.
+>
+> **Mix Packs**
+>
+> - The Mix Packs page previews each item's animations live, with your own hand and the real 3D held item. Special items show their own moves: shield use and equip, fishing rod cast and reel in, trident attack, throw, Loyalty and Riptide, spear attack and charge, and bow and crossbow load and shot.
+>   …
+
+> [!note]- Puzzles Lib 21.1.66
 > **Fixed**
 >
-> - Trial spawner rewards can no longer be earned by waiting for the trial's mobs to despawn. Vanilla counts a mob that despawned the same as one that was killed, so standing nearby until the mobs despawned completed the trial and ejected its rewards without a fight. A trial spawner mob now never despawns while its spawner still counts it towards the trial. It can despawn once the spawner lets it go: it wandered more than 47 blocks away, the trial ended or reset, or the spawner was broken. Leftover trial mobs still despawn, so they don't pile up.
-> - Trial spawner mobs saved before this update are matched to their spawner automatically.
+> - Restore missing transitive access wideners
 
-> [!note]- Ore Harvester 2.1 neo
+> [!note]- Sophisticated Backpacks 3.26.18.2235
+> **Fixes**
 >
-> - The 'oreBlockWhitelist', 'oreBlockBlacklist' and 'pickaxeWhitelist' lists can now be picked from a list in the in-game config.The complete changelog with detailed information about previous versions can be found on my website: >
+> - Fixed forged requests bypassing inventory access restrictions
+
+> [!note]- Sophisticated Core 1.5.21.2439
+> **Fixes**
+>
+> - Fixed forged requests bypassing inventory access restrictions
+> - Fixed storage overflow voiding being blocked by reserved empty slots
+
+> [!note]- Sophisticated Item Actions 0.5.19.446
+> Même changelog que Sophisticated Backpacks.
+
+> [!note]- SuperMartijn642's Core Lib 1.1.26
+> **SuperMartijn642's Core Library 1.1.26**
+>
+> - Added `PlayerProfileCache` for looking up player names, uuids, and skins
+> - Added `Teleporter` for handling teleporting entities
+> - Added `StackedWidget` to layer multiple widgets and separate interaction between them
+> - Added options to set size and position of `ScissorWidget`
+> - Added more text styling option to `TextFieldWidget`
+> - Fixed `WidgetScreen` not using widget cursor type
+> - Fixed widget cursor type not being maintained whilst dragging
+> - Fixed child widgets of `AbstractButtonWidget` not receiving `#mousePressed` call
+> - Fixed widgets not being unfocused when removed
+> - Fixed `ScrollbarWidget` accepting scroll input when not focused
+> - Fixed `ClientUtils#closeScreen` not closing screens without a container
+>   …
 
 ## Configs
 
-- Neoforge version : `21.1.259` => `21.1.264`
-- Removed [Create: Blueprinted](https://modrinth.com/mod/create-blueprinted)
+- Neoforge version : `21.1.264` => `21.1.265`
+- Removed [Loot Beams: Refork](https://modrinth.com/mod/loot-beams-refork)
+- Added :
+  - [Aeronautics: Joy of Creation](https://modrinth.com/mod/aeronautics-joy-of-creation)
+  - [Copper Age Backport](https://modrinth.com/mod/backport-copper-age)
+  - [Create: Pocket Sized](https://modrinth.com/mod/create-pocket-sized)
+  - [Fancy Items](https://modrinth.com/mod/fancyitems)
+  - [Pehkui](https://modrinth.com/mod/pehkui)
+  - [Punchy! Studio](https://modrinth.com/mod/punchystudio)
