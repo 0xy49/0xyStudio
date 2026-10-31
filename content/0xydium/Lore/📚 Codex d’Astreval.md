@@ -2,6 +2,8 @@
 publish: true
 created: 2026-10-22T13:06:30.648Z
 modified: 2026-10-22T13:06:30.648Z
+published: 2026-10-22T13:06:30.648Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 ## **1. Le Monde**

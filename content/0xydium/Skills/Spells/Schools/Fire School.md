@@ -2,6 +2,8 @@
 publish: true
 created: 2026-10-22T13:08:53.854Z
 modified: 2026-10-22T13:08:53.854Z
+published: 2026-10-22T13:08:53.854Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 |                                  | Base | Skiltree                                                             | Autre | Total  | Total Points |

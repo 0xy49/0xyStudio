@@ -2,6 +2,8 @@
 publish: true
 created: 2026-10-22T13:06:25.144Z
 modified: 2026-10-22T13:06:25.144Z
+published: 2026-10-22T13:06:25.144Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 # 🌌 **CHAPITRE I — Le Monde d’Astreval**

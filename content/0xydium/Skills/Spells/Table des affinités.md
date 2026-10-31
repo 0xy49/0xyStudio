@@ -1,7 +1,9 @@
 ---
 publish: true
-created: 2026-10-22T13:07:23.851Z
-modified: 2026-10-22T22:52:33.162Z
+created: 2026-10-31T18:57:33.552Z
+modified: 2026-10-31T18:57:33.552Z
+published: 2026-10-31T18:57:33.552Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 # ⚔️ Table des affinités
@@ -20,11 +22,11 @@ modified: 2026-10-22T22:52:33.162Z
 > [!info] Lecture
 > Chaque ligne est une branche : chaque école **bat celle à sa droite** (➡️). La dernière colonne 🔁 referme la boucle : l'école n°9 bat l'école n°1.
 
-|                               |          1 ➡️          |             2 ➡️             |             3 ➡️             |               4 ➡️                |                5 ➡️                |                6 ➡️                |                7 ➡️                |               8 ➡️                |              9 ➡️🔁               |
-| :---------------------------: | :--------------------: | :--------------------------: | :--------------------------: | :-------------------------------: | :--------------------------------: | :--------------------------------: | :--------------------------------: | :-------------------------------: | :-------------------------------: |
-| **[[#Branche 1\|Branche 1]]** | [[Ice School\|❄️ Ice]] |   [[Fire School\|🔥 Fire]]   | [[Nature School\|🌿 Nature]] | [[Lightning School\|⚡ Lightning]] | [[Evocation School\|🔮 Evocation]] |      [[Holy School\|✨ Holy]]       | [[Eldritch School\|👁️ Eldritch]]  |    [[Ender School\|🌌 Ender]]     |    [[Blood School\|🩸 Blood]]     |
-| **[[#Branche 2\|Branche 2]]** | [[Ice School\|❄️ Ice]] |   [[Holy School\|✨ Holy]]    |   [[Fire School\|🔥 Fire]]   |    [[Blood School\|🩸 Blood]]     | [[Lightning School\|⚡ Lightning]]  |     [[Ender School\|🌌 Ender]]     | [[Evocation School\|🔮 Evocation]] |   [[Nature School\|🌿 Nature]]    | [[Eldritch School\|👁️ Eldritch]] |
-| **[[#Branche 3\|Branche 3]]** | [[Ice School\|❄️ Ice]] | [[Nature School\|🌿 Nature]] |  [[Ender School\|🌌 Ender]]  |      [[Holy School\|✨ Holy]]      |     [[Blood School\|🩸 Blood]]     | [[Evocation School\|🔮 Evocation]] |      [[Fire School\|🔥 Fire]]      | [[Eldritch School\|👁️ Eldritch]] | [[Lightning School\|⚡ Lightning]] |
+|               |          1 ➡️          |             2 ➡️             |             3 ➡️             |               4 ➡️                |                5 ➡️                |                6 ➡️                |                7 ➡️                |               8 ➡️                |              9 ➡️🔁               |
+| :-----------: | :--------------------: | :--------------------------: | :--------------------------: | :-------------------------------: | :--------------------------------: | :--------------------------------: | :--------------------------------: | :-------------------------------: | :-------------------------------: |
+| **Branche 1** | [[Ice School\|❄️ Ice]] |   [[Fire School\|🔥 Fire]]   | [[Nature School\|🌿 Nature]] | [[Lightning School\|⚡ Lightning]] | [[Evocation School\|🔮 Evocation]] |      [[Holy School\|✨ Holy]]       | [[Eldritch School\|👁️ Eldritch]]  |    [[Ender School\|🌌 Ender]]     |    [[Blood School\|🩸 Blood]]     |
+| **Branche 2** | [[Ice School\|❄️ Ice]] |   [[Holy School\|✨ Holy]]    |   [[Fire School\|🔥 Fire]]   |    [[Blood School\|🩸 Blood]]     | [[Lightning School\|⚡ Lightning]]  |     [[Ender School\|🌌 Ender]]     | [[Evocation School\|🔮 Evocation]] |   [[Nature School\|🌿 Nature]]    | [[Eldritch School\|👁️ Eldritch]] |
+| **Branche 3** | [[Ice School\|❄️ Ice]] | [[Nature School\|🌿 Nature]] |  [[Ender School\|🌌 Ender]]  |      [[Holy School\|✨ Holy]]      |     [[Blood School\|🩸 Blood]]     | [[Evocation School\|🔮 Evocation]] |      [[Fire School\|🔥 Fire]]      | [[Eldritch School\|👁️ Eldritch]] | [[Lightning School\|⚡ Lightning]] |
 
 ---
 
@@ -71,7 +73,7 @@ modified: 2026-10-22T22:52:33.162Z
 > - 🔥 Fire brûle la nature, cautérise le sang, purifie l'horreur Eldritch
 > - ❄️ Ice éteint les flammes, gèle les plantes, reflète la lumière sacrée
 > - ⚡ Lightning brise la glace, dérègle l'évocation, perturbe l'Ender
-> - 🌿 Nature absorbe la foudre, ancrer face à l'Ender, résiste à la corruption Eldritch
+> - 🌿 Nature absorbe la foudre, ancre face à l'Ender, résiste à la corruption Eldritch
 > - 🩸 Blood fait fondre le givre, conduit la foudre, nourrit sa magie des invocations
 > - 🔮 Evocation : les constructs arcaniques ne brûlent pas, profanent le sacré, submergent la nature
 > - ✨ Holy purifie le sang corrompu, chasse l'Eldritch, apaise les flammes destructrices

@@ -1,7 +1,9 @@
 ---
 publish: true
-created: 2026-10-22T13:07:12.025Z
-modified: 2026-10-22T13:07:12.025Z
+created: 2026-10-31T19:34:12.552Z
+modified: 2026-10-31T19:34:12.552Z
+published: 2026-10-31T19:34:12.552Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 |                                          | Base              | Skilltree                                                                                                       | Autre                           | Total               | Total Points |
@@ -9,7 +11,7 @@ modified: 2026-10-22T13:07:12.025Z
 | ==🟢Points d'Armure==                    | 0                 | 15 skilltree<br>==(10 x 1.5)==                                                                                  |                                 | 15                  | 10           |
 | ==🟢Vie Maximale==                       | 20 health (10 ❤️) | 10 health skilltree (5 ❤️) CLASS<br>==(1 x 10 health)==<br>180 health skilltree (90 ❤️)<br>==(10 x 18 health)== | 30 health (15 hearts container) | 240 health = 120 ❤️ | 10           |
 | ==🟢Chance==                             | 0                 | 2.5<br>==(10 x 0.25)==                                                                                          |                                 | 2.5                 | 10           |
-| ==🟢Robustesse==                         | 0                 | 10 skilltree (5 plastron)<br>==(10 x 0.5)==                                                                     |                                 | 5                   | 10           |
+| ==🟢Robustesse==                         | 0                 | 5 skilltree (2.5 plastrons)<br>==(10 x 0.5)==                                                                   |                                 | 5 = 2.5 plastrons   | 10           |
 | ==🟢Résistance au Recul==                | 0%                | 25% skilltree<br>==(10 x 2.5%)==                                                                                |                                 | 25%                 | 10           |
 | ==🟢Résistance au Recul des Explosions== | 0                 | 1 skiltree<br>==(10 x 0.1)==                                                                                    |                                 | 1                   | 10           |
 | ==🟢Vitesse Accroupie==                  | 0.30              | 0.20 skilltree<br>==(10 x 0.02)==                                                                               |                                 | 0.50                | 10           |
@@ -86,7 +88,7 @@ Exp. Gained         |   EG      |       |       |
     |       |       |                                       |       |       |
     LUCK-8  SS-7    KR-8                                    KR-9    ARM-9   DC-8
     |       |       |                                       |       |       |
-    MH-6    AD-7    DC-9                                    AT-9    DC-10   MH-7
+    MH-6    EKR-7   DC-9                                    AT-9    DC-10   MH-7
     |       |       |                                       |       |       |
     SS-9    EG-8    MH-8                                    MH-10   EG-9    EKR-9
     |       |       |                                       |       |       |
@@ -97,8 +99,8 @@ Exp. Gained         |   EG      |       |       |
 
 ## **ROOT : Armor Toughness (AT)**
 
-Le Warrior commence avec un bonus direct à la **réduction avancée des dégâts** via une meilleure résistance de l’armure.\
-➡️ C’est la statistique défensive la plus importante du kit.
+Le Warrior commence avec la **Robustesse**, qui rend son armure plus efficace face aux **coups puissants** (au-delà de 20 dégâts) et réduit l'Armor Pierce / Armor Shred adverse.\
+➡️ C'est la statistique anti-burst du kit : face aux boss et aux grosses frappes, elle complète l'**Armure**, qui reste la base de sa réduction des dégâts.
 
 ---
 

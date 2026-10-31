@@ -2,6 +2,8 @@
 publish: true
 created: 2025-10-02T04:30:09.369Z
 modified: 2026-10-24T14:23:46.149Z
+published: 2026-10-24T14:23:46.149Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 ![0xydium](https://i.imgur.com/96KgdvW.png)

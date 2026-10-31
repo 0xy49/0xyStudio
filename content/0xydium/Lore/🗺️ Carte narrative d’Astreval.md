@@ -2,6 +2,8 @@
 publish: true
 created: 2026-10-22T13:06:40.880Z
 modified: 2026-10-22T13:06:40.880Z
+published: 2026-10-22T13:06:40.880Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 ## **1. Zones principales et biomes**

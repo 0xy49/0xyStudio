@@ -2,6 +2,8 @@
 publish: true
 created: 2026-10-22T13:07:35.477Z
 modified: 2026-10-22T13:07:35.477Z
+published: 2026-10-22T13:07:35.477Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 | N°  | Nom                                                              | Description                                                                                                                                       | Level | Hyper<br>Level | Incompatibility                                                                                           |

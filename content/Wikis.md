@@ -2,6 +2,8 @@
 publish: true
 created: 2026-10-22T13:07:58.756Z
 modified: 2026-10-24T14:06:50.932Z
+published: 2026-10-24T14:06:50.932Z
+outgoing_links: "[[Mojang.base]]"
 ---
 
 7 wikis
