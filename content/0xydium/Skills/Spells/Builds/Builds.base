@@ -35,7 +35,7 @@ properties:
   closed_cycle:
     displayName: Cycle fermé
 views:
-  - type: cards
+  - type: table
     name: Tous les builds
     groupBy:
       property: formula.tier_group
@@ -48,7 +48,7 @@ views:
       - recommended_class
       - hard_counters
       - threats
-  - type: cards
+  - type: table
     name: Couverture complète
     filters:
       and:
@@ -60,7 +60,7 @@ views:
       - recommended_class
       - threats
       - pivot
-  - type: cards
+  - type: table
     name: Recommandées
     filters:
       and:
@@ -85,7 +85,7 @@ views:
       - profile
       - hard_counters
       - threats
-  - type: cards
+  - type: table
     name: Cycles fermés
     filters:
       and:
