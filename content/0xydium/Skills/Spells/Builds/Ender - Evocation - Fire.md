@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Prestidigitateur
 created: 2026-10-31T18:37:55.643Z
-modified: 2026-10-31T18:37:41.674Z
-published: 2026-10-31T18:37:41.674Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Evocation School]]"

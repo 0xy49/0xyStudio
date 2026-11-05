@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Forêt en flammes
 created: 2026-10-31T18:37:55.504Z
-modified: 2026-10-31T18:37:41.601Z
-published: 2026-10-31T18:37:41.601Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Fire School]]"

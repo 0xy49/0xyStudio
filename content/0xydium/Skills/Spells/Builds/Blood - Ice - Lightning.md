@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Givre électrique
 created: 2026-10-31T18:37:55.199Z
-modified: 2026-10-31T18:37:41.438Z
-published: 2026-10-31T18:37:41.438Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Ice School]]"

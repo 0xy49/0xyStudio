@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Croisade arcanique
 created: 2026-10-31T18:37:55.937Z
-modified: 2026-10-31T18:37:41.825Z
-published: 2026-10-31T18:37:41.825Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Evocation School]]"
   - "[[Fire School]]"

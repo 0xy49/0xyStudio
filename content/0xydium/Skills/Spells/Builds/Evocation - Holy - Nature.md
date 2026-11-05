@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Clerc druidique
 created: 2026-10-31T18:37:56.065Z
-modified: 2026-10-31T18:37:41.886Z
-published: 2026-10-31T18:37:41.886Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Evocation School]]"
   - "[[Holy School]]"

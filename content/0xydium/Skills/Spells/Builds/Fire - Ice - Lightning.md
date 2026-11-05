@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Guerrier élémentaire
 created: 2026-10-31T18:37:56.208Z
-modified: 2026-10-31T18:37:41.955Z
-published: 2026-10-31T18:37:41.955Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Fire School]]"
   - "[[Ice School]]"

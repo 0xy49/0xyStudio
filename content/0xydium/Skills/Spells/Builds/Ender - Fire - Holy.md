@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Paladin stellaire
 created: 2026-10-31T18:37:55.741Z
-modified: 2026-10-31T18:37:41.729Z
-published: 2026-10-31T18:37:41.729Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Fire School]]"

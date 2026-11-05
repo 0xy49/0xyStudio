@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-10-31T15:30:38.771Z
-published: 2026-10-31T15:30:38.771Z
+modified: 2026-10-31T15:30:38.000Z
+published: 2026-10-31T15:30:38.000Z
 outgoing_links: "[[Mojang.base]]"
 ---
 

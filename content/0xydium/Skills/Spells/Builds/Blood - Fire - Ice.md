@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Fièvre et frisson
 created: 2026-10-31T18:37:55.088Z
-modified: 2026-10-31T18:37:41.381Z
-published: 2026-10-31T18:37:41.381Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Fire School]]"

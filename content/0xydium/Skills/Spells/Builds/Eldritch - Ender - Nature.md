@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Corruption
 created: 2026-10-31T18:37:55.340Z
-modified: 2026-10-31T18:37:41.514Z
-published: 2026-10-31T18:37:41.514Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Ender School]]"

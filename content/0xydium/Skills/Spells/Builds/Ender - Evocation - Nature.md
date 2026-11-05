@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Esprit sylvestre
 created: 2026-10-31T18:37:55.719Z
-modified: 2026-10-31T18:37:41.719Z
-published: 2026-10-31T18:37:41.719Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Evocation School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Apocalypse
 created: 2026-10-31T18:37:55.484Z
-modified: 2026-10-31T18:37:41.591Z
-published: 2026-10-31T18:37:41.591Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Fire School]]"

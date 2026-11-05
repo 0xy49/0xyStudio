@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Comète noire
 created: 2026-10-31T18:37:55.268Z
-modified: 2026-10-31T18:37:41.475Z
-published: 2026-10-31T18:37:41.475Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Ender School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Aurore boréale
 created: 2026-10-31T18:37:56.271Z
-modified: 2026-10-31T18:37:41.985Z
-published: 2026-10-31T18:37:41.985Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Holy School]]"
   - "[[Ice School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Druide céleste
 created: 2026-10-31T18:37:55.858Z
-modified: 2026-10-31T18:37:41.789Z
-published: 2026-10-31T18:37:41.789Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Holy School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Hivernage
 created: 2026-10-31T18:37:56.104Z
-modified: 2026-10-31T18:37:41.907Z
-published: 2026-10-31T18:37:41.907Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Evocation School]]"
   - "[[Ice School]]"

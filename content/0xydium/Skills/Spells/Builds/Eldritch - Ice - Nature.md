@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Marais gelé
 created: 2026-10-31T18:37:55.605Z
-modified: 2026-10-31T18:37:41.651Z
-published: 2026-10-31T18:37:41.651Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Ice School]]"

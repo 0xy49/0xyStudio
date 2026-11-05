@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Le piège sacré
 created: 2026-10-31T18:37:55.000Z
-modified: 2026-10-31T18:37:41.335Z
-published: 2026-10-31T18:37:41.335Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Evocation School]]"

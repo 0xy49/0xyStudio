@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Tempête sauvage
 created: 2026-10-31T18:37:56.250Z
-modified: 2026-10-31T18:37:41.976Z
-published: 2026-10-31T18:37:41.976Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Fire School]]"
   - "[[Lightning School]]"

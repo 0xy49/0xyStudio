@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Néant écarlate
 created: 2026-10-31T18:37:56.352Z
-modified: 2026-10-31T18:37:41.202Z
-published: 2026-10-31T18:37:41.202Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Eldritch School]]"

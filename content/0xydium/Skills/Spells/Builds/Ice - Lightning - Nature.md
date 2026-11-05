@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Orage d'hiver
 created: 2026-10-31T18:37:56.334Z
-modified: 2026-10-31T18:37:42.016Z
-published: 2026-10-31T18:37:42.016Z
+modified: 2026-10-31T18:37:42.000Z
+published: 2026-10-31T18:37:42.000Z
 schools:
   - "[[Ice School]]"
   - "[[Lightning School]]"

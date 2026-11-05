@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Ange gardien
 created: 2026-10-31T18:37:55.661Z
-modified: 2026-10-31T18:37:41.687Z
-published: 2026-10-31T18:37:41.687Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Evocation School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Pyromancien invocateur
 created: 2026-10-31T18:37:54.982Z
-modified: 2026-10-31T18:37:41.325Z
-published: 2026-10-31T18:37:41.325Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Evocation School]]"

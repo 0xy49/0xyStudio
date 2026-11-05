@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Nécromancien abyssal
 created: 2026-10-31T18:37:56.372Z
-modified: 2026-10-31T18:37:41.211Z
-published: 2026-10-31T18:37:41.211Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Eldritch School]]"

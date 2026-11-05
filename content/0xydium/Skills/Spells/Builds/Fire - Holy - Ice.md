@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Équinoxe
 created: 2026-10-31T18:37:56.145Z
-modified: 2026-10-31T18:37:41.926Z
-published: 2026-10-31T18:37:41.926Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Fire School]]"
   - "[[Holy School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Arcaniste destructeur
 created: 2026-10-31T18:37:55.357Z
-modified: 2026-10-31T18:37:41.524Z
-published: 2026-10-31T18:37:41.524Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Evocation School]]"

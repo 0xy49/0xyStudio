@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Ombre spectrale
 created: 2026-10-31T18:37:54.874Z
-modified: 2026-10-31T18:37:41.269Z
-published: 2026-10-31T18:37:41.269Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Ender School]]"

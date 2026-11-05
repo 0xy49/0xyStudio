@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Sanctuaire
 created: 2026-10-31T18:37:56.293Z
-modified: 2026-10-31T18:37:41.996Z
-published: 2026-10-31T18:37:41.996Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Holy School]]"
   - "[[Ice School]]"

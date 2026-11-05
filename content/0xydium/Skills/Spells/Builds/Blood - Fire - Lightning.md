@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Berserker
 created: 2026-10-31T18:37:55.105Z
-modified: 2026-10-31T18:37:41.390Z
-published: 2026-10-31T18:37:41.390Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Fire School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Sanctuaire corrompu
 created: 2026-10-31T18:37:55.565Z
-modified: 2026-10-31T18:37:41.631Z
-published: 2026-10-31T18:37:41.631Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Holy School]]"

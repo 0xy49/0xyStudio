@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Fantôme
 created: 2026-10-31T18:37:55.250Z
-modified: 2026-10-31T18:37:41.466Z
-published: 2026-10-31T18:37:41.466Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Ender School]]"

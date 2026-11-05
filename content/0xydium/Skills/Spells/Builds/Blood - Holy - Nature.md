@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Cercle de vie
 created: 2026-10-31T18:37:55.179Z
-modified: 2026-10-31T18:37:41.429Z
-published: 2026-10-31T18:37:41.429Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Holy School]]"

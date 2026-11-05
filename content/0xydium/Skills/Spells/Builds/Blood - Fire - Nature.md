@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Incendie sauvage
 created: 2026-10-31T18:37:55.122Z
-modified: 2026-10-31T18:37:41.400Z
-published: 2026-10-31T18:37:41.400Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Fire School]]"

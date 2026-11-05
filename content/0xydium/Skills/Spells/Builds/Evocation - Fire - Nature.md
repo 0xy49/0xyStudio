@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Sorcier des ronces
 created: 2026-10-31T18:37:56.002Z
-modified: 2026-10-31T18:37:41.855Z
-published: 2026-10-31T18:37:41.855Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Evocation School]]"
   - "[[Fire School]]"

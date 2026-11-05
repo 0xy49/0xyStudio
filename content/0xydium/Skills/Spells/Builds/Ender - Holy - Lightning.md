@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Messager divin
 created: 2026-10-31T18:37:55.838Z
-modified: 2026-10-31T18:37:41.778Z
-published: 2026-10-31T18:37:41.778Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Holy School]]"

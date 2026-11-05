@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Éclair de givre
 created: 2026-10-31T18:37:55.876Z
-modified: 2026-10-31T18:37:41.798Z
-published: 2026-10-31T18:37:41.798Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Ender School]]"
   - "[[Ice School]]"

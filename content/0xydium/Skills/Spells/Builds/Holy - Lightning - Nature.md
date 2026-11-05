@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Gardien de la tempête
 created: 2026-10-31T18:37:56.314Z
-modified: 2026-10-31T18:37:42.007Z
-published: 2026-10-31T18:37:42.007Z
+modified: 2026-10-31T18:37:42.000Z
+published: 2026-10-31T18:37:42.000Z
 schools:
   - "[[Holy School]]"
   - "[[Lightning School]]"

@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Croisé de foudre
 created: 2026-10-31T18:37:55.160Z
-modified: 2026-10-31T18:37:41.419Z
-published: 2026-10-31T18:37:41.419Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Holy School]]"

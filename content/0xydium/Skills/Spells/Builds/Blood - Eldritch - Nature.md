@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Pourriture
 created: 2026-10-31T18:37:54.857Z
-modified: 2026-10-31T18:37:41.260Z
-published: 2026-10-31T18:37:41.260Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Eldritch School]]"

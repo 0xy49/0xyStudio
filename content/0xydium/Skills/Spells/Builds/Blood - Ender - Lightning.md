@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Court-circuit
 created: 2026-10-31T18:37:54.947Z
-modified: 2026-10-31T18:37:41.307Z
-published: 2026-10-31T18:37:41.307Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Ender School]]"

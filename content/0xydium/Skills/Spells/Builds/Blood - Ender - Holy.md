@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Paladin déchu
 created: 2026-10-31T18:37:54.910Z
-modified: 2026-10-31T18:37:41.288Z
-published: 2026-10-31T18:37:41.288Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Ender School]]"

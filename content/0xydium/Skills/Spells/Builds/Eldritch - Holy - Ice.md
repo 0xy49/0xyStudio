@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Lumière froide
 created: 2026-10-31T18:37:55.526Z
-modified: 2026-10-31T18:37:41.611Z
-published: 2026-10-31T18:37:41.611Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Eldritch School]]"
   - "[[Holy School]]"

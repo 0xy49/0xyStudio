@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Inquisiteur
 created: 2026-10-31T18:37:55.071Z
-modified: 2026-10-31T18:37:41.372Z
-published: 2026-10-31T18:37:41.372Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Fire School]]"

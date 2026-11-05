@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Tempête maudite
 created: 2026-10-31T18:37:54.839Z
-modified: 2026-10-31T18:37:41.251Z
-published: 2026-10-31T18:37:41.251Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Eldritch School]]"

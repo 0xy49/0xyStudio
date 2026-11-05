@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Saisons
 created: 2026-10-31T18:37:56.228Z
-modified: 2026-10-31T18:37:41.966Z
-published: 2026-10-31T18:37:41.966Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Fire School]]"
   - "[[Ice School]]"

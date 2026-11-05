@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Bastion
 created: 2026-10-31T18:37:56.025Z
-modified: 2026-10-31T18:37:41.865Z
-published: 2026-10-31T18:37:41.865Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Evocation School]]"
   - "[[Holy School]]"

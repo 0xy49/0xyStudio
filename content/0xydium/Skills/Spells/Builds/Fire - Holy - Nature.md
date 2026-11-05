@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Clairière ardente
 created: 2026-10-31T18:37:56.187Z
-modified: 2026-10-31T18:37:41.945Z
-published: 2026-10-31T18:37:41.945Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Fire School]]"
   - "[[Holy School]]"

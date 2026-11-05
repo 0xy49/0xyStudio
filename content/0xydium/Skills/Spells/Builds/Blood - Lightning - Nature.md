@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Chasseur des marais
 created: 2026-10-31T18:37:55.234Z
-modified: 2026-10-31T18:37:41.456Z
-published: 2026-10-31T18:37:41.456Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Lightning School]]"

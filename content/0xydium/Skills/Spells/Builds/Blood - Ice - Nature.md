@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Rempart vivant
 created: 2026-10-31T18:37:55.217Z
-modified: 2026-10-31T18:37:41.447Z
-published: 2026-10-31T18:37:41.447Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Ice School]]"

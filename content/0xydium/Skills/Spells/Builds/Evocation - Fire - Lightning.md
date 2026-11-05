@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Artillerie
 created: 2026-10-31T18:37:55.980Z
-modified: 2026-10-31T18:37:41.845Z
-published: 2026-10-31T18:37:41.845Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Evocation School]]"
   - "[[Fire School]]"

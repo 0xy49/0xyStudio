@@ -3,8 +3,8 @@ publish: true
 aliases:
   - Hiver de sang
 created: 2026-10-31T18:37:54.821Z
-modified: 2026-10-31T18:37:41.241Z
-published: 2026-10-31T18:37:41.241Z
+modified: 2026-10-31T18:37:41.000Z
+published: 2026-10-31T18:37:41.000Z
 schools:
   - "[[Blood School]]"
   - "[[Eldritch School]]"
