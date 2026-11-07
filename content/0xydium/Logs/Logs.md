@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-11-07T16:14:34.908Z
-published: 2026-11-07T16:14:34.908Z
+modified: 2026-11-07T22:47:37.879Z
+published: 2026-11-07T22:47:37.879Z
 outgoing_links: "[[Mojang.base]]"
 ---
 
@@ -27,7 +27,7 @@ outgoing_links: "[[Mojang.base]]"
 > - Portable Drill: the drill head now spins much faster while you mine blocks or swing at the air, like a real drill at work
 >   - It slows back down smoothly when you stop
 >   - Hitting a mob keeps the normal animation
-> - Mount Certificate: right-click your tamed mount or pet with paper to create a certificate (WIP feature)
+> - Mount Certificate: right-click your tamed mount or pet with paper to create a certificate
 >   - Give it to another player: they right-click the animal with it to become its new owner
 >   - Works on horses, donkeys, mules, llamas, camels, wolves, cats and parrots
 >   - Only one certificate can exist per animal at a time: right-click the animal with your own certificate to cancel it
@@ -35,14 +35,13 @@ outgoing_links: "[[Mojang.base]]"
 >   - Hover over Paper and hold Shift or Ctrl to see how it works
 > - Market Terminal (new block): a machine that opens the stock market when you right-click it (WIP feature)
 >   - Can be moved with the Create wrench like the Bank Terminal
-> - Market Remote (new item): opens the stock market from anywhere (WIP feature)
+> - Market Remote (new item): opens the stock market from anywhere
 > - Stock market screen with three tabs (WIP feature):
 >   - Shops: lists every shop, with filters (mode, currency, items, owner, dimension) and favorites
 >   - Market: average and lowest price per item, 24h change, volume, price graph and trend
 >   - Top sellers: ranking of the best sellers, by sales or by number of shops
 > - Table cloths you set up with Create are now listed automatically, with the real price shown (e.g. 12 Cogs) instead of a converted value
-> - Buy orders: a table cloth that “sells” coins in exchange for an item is listed as a purchase (the owner buys that item and pays in coins) (WIP feature)
-> - `/shoplist` command to open the shop list from anywhere
+> - Buy orders: a table cloth that “sells” coins in exchange for an item is listed as a purchase (the owner buys that item and pays in coins)
 >
 > Fixed :
 >
