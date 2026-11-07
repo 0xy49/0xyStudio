@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-11-07T22:47:37.879Z
-published: 2026-11-07T22:47:37.879Z
+modified: 2026-11-07T22:48:44.750Z
+published: 2026-11-07T22:48:44.750Z
 outgoing_links: "[[Mojang.base]]"
 ---
 
 # 07/11/26
 
-> [!note]- 0xydium
+> [!note]- 0xydium 2.0.5
 > Added :
 >
 > - Link's Hat now gives the Hero of the Village effect as long as you wear it (better trades with villagers)
