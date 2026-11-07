@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-10-22T13:06:02.826Z
-modified: 2026-11-07T16:07:59.526Z
-published: 2026-11-07T16:07:59.526Z
+modified: 2026-11-07T16:14:34.908Z
+published: 2026-11-07T16:14:34.908Z
 outgoing_links: "[[Mojang.base]]"
 ---
 
@@ -53,7 +53,7 @@ outgoing_links: "[[Mojang.base]]"
 > - Text and columns no longer stick to the column separators
 > - Various small visual overflows in the market screen (top border, search bar, sidebar edge)
 
-> [!note]- \[ETF] Entity Texture Features 7.2.7
+> [!note]- Entity Texture Features 7.2.7
 >
 > - fixed the enchanted skin pixels feature not working properly in 1.21.9+
 > - improved memory usage for 1.21.9+
@@ -310,7 +310,7 @@ outgoing_links: "[[Mojang.base]]"
 > - feat: use more precise mixins for Rotation Angles
 > - Improve Chinese localization for animation settings
 
-> [!note]- Not Enough Recipe Book \[NERB] 0.6
+> [!note]- Not Enough Recipe Book 0.6
 >
 > - Backported to 1.21.1
 
